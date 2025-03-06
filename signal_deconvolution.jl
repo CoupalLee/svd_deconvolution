@@ -144,9 +144,9 @@ function deconvolution(U, Σ, V_T, m)
 end
 function main()
 
-    m = read_signal_data("/Users/leecarrier-coupal/Documents/Carrier-Coupal_Lee_Devoir1/temps_m_cas1.txt")
-    s = read_signal_data("/Users/leecarrier-coupal/Documents/Carrier-Coupal_Lee_Devoir1/temps_s_vrai_cas1.txt")
-    h = read_signal_data("/Users/leecarrier-coupal/Documents/Carrier-Coupal_Lee_Devoir1/temps_h.txt")
+    m = read_signal_data("")
+    s = read_signal_data("")
+    h = read_signal_data("")
 
     Nm = size(m)[1]
     Ns = size(s)[1]
